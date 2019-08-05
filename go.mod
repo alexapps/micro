@@ -1,6 +1,9 @@
-module github.com/micro/micro
+module github.com/alexapps/micro
 
 go 1.12
+
+
+replace github.com/micro/go-micro => github.com/alexapps/go-micro v1.8.4
 
 require (
 	github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e
